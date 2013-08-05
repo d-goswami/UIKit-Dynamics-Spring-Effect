@@ -1,4 +1,4 @@
 UIKit-Dynamics
 ==============
 
-Learn about UIKit Dynamics in iOS 7
+Learn how to create the spring effect using new iOS 7 UIKit Dynamics APIs.
