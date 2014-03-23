@@ -14,13 +14,14 @@
 		56E8E9E618DE68E400B8807D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E8E9E518DE68E400B8807D /* main.m */; };
 		56E8E9EA18DE68E400B8807D /* AutoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E8E9E918DE68E400B8807D /* AutoAppDelegate.m */; };
 		56E8E9ED18DE68E400B8807D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E8E9EB18DE68E400B8807D /* Main.storyboard */; };
-		56E8E9F018DE68E400B8807D /* AutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E8E9EF18DE68E400B8807D /* AutoViewController.m */; };
 		56E8E9F218DE68E400B8807D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E8E9F118DE68E400B8807D /* Images.xcassets */; };
 		56E8E9F918DE68E400B8807D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E8E9F818DE68E400B8807D /* XCTest.framework */; };
 		56E8E9FA18DE68E400B8807D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E8E9D918DE68E400B8807D /* Foundation.framework */; };
 		56E8E9FB18DE68E400B8807D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E8E9DD18DE68E400B8807D /* UIKit.framework */; };
 		56E8EA0318DE68E400B8807D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56E8EA0118DE68E400B8807D /* InfoPlist.strings */; };
 		56E8EA0518DE68E400B8807D /* SpringEffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E8EA0418DE68E400B8807D /* SpringEffectsTests.m */; };
+		56E8EA1018DE694800B8807D /* IPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E8EA0F18DE694800B8807D /* IPCollectionViewController.m */; };
+		56E8EA1318DE696900B8807D /* IPCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E8EA1218DE696900B8807D /* IPCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		56E8E9E818DE68E400B8807D /* AutoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoAppDelegate.h; sourceTree = "<group>"; };
 		56E8E9E918DE68E400B8807D /* AutoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAppDelegate.m; sourceTree = "<group>"; };
 		56E8E9EC18DE68E400B8807D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56E8E9EE18DE68E400B8807D /* AutoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoViewController.h; sourceTree = "<group>"; };
-		56E8E9EF18DE68E400B8807D /* AutoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoViewController.m; sourceTree = "<group>"; };
 		56E8E9F118DE68E400B8807D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56E8E9F718DE68E400B8807D /* SpringEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E8E9F818DE68E400B8807D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		56E8EA0018DE68E400B8807D /* SpringEffectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpringEffectsTests-Info.plist"; sourceTree = "<group>"; };
 		56E8EA0218DE68E400B8807D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56E8EA0418DE68E400B8807D /* SpringEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringEffectsTests.m; sourceTree = "<group>"; };
+		56E8EA0E18DE694800B8807D /* IPCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPCollectionViewController.h; sourceTree = "<group>"; };
+		56E8EA0F18DE694800B8807D /* IPCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPCollectionViewController.m; sourceTree = "<group>"; };
+		56E8EA1118DE696900B8807D /* IPCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		56E8EA1218DE696900B8807D /* IPCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				56E8E9E818DE68E400B8807D /* AutoAppDelegate.h */,
 				56E8E9E918DE68E400B8807D /* AutoAppDelegate.m */,
 				56E8E9EB18DE68E400B8807D /* Main.storyboard */,
-				56E8E9EE18DE68E400B8807D /* AutoViewController.h */,
-				56E8E9EF18DE68E400B8807D /* AutoViewController.m */,
+				56E8EA0E18DE694800B8807D /* IPCollectionViewController.h */,
+				56E8EA0F18DE694800B8807D /* IPCollectionViewController.m */,
+				56E8EA1118DE696900B8807D /* IPCollectionViewFlowLayout.h */,
+				56E8EA1218DE696900B8807D /* IPCollectionViewFlowLayout.m */,
 				56E8E9F118DE68E400B8807D /* Images.xcassets */,
 				56E8E9E018DE68E400B8807D /* Supporting Files */,
 			);
@@ -251,8 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56E8E9E618DE68E400B8807D /* main.m in Sources */,
-				56E8E9F018DE68E400B8807D /* AutoViewController.m in Sources */,
+				56E8EA1318DE696900B8807D /* IPCollectionViewFlowLayout.m in Sources */,
 				56E8E9EA18DE68E400B8807D /* AutoAppDelegate.m in Sources */,
+				56E8EA1018DE694800B8807D /* IPCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

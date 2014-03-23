@@ -1,5 +1,5 @@
 //
-//  AutoAppDelegate.h
+//  IPCollectionViewFlowLayout.h
 //  SpringEffects
 //
 //  Created by Dheeraj Goswami on 6/22/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AutoAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface IPCollectionViewFlowLayout : UICollectionViewFlowLayout
 
 @end

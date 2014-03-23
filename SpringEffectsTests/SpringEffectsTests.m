@@ -2,8 +2,8 @@
 //  SpringEffectsTests.m
 //  SpringEffectsTests
 //
-//  Created by Dheeraj Goswami on 3/22/14.
-//  Copyright (c) 2014 iOSPages. All rights reserved.
+//  Created by Dheeraj Goswami on 6/22/13.
+//  Copyright (c) 2013 iOSPages. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
